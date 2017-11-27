@@ -1,0 +1,35 @@
+.product{
+	height: 300px;
+	width: 33%;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	
+	
+	text-align: center;
+}
+#cart li {
+			color: black;
+			font-size: 1em;
+		}
+
+
+.title {
+			text-align: center;
+		}
+
+#prod1{
+	background-image: url("drone.gif");
+	background-size: cover;
+
+}
+
+#prod2{
+	background-image: url("gopro.gif");
+	background-size: cover;
+}
+
+#prod3{
+	background-image: url(beats.gif);
+	background-size: cover;
+}
