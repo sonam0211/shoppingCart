@@ -21,7 +21,7 @@ Cart.prototype.displayCart = function(){
 		console.log(product.innerHtml);
 		product.className="title";
 		showItem.appendChild(product);
-		product.innerHtml = item;
+		product.innerHTML = item;
 	}
 }
 
@@ -39,7 +39,7 @@ var cartObj = new Cart();
 var buttonClick = [];
 buttonClick = document.getElementsByClassName("item");
 console.log(buttonClick);
-for(var i = 0;i<=buttonClick.length;i++)
+for(var i = 0;i<buttonClick.length;i++)
 {
 buttonClick[i].addEventListener("click",function(e){
 	console.log(e.target.id);
